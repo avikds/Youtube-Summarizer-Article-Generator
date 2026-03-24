@@ -2,6 +2,8 @@
 
 A Generative AI-powered Streamlit application that converts any YouTube video into a publication-ready article webpage. The pipeline extracts the video transcript, summarizes it using Google Gemini, and generates a fully styled HTML/CSS/JS article — downloadable as a ZIP in one click.
 
+### Live App: https://youtube-summarizer-article-generator.streamlit.app
+
 ---
 
 ## Table of Contents
@@ -181,7 +183,7 @@ The application reads its Gemini API key exclusively from Streamlit secrets. The
 **For local development**, edit `.streamlit/secrets.toml`:
 
 ```toml
-GEMINI_API_KEY = "AIza..."
+GEMINI_API_KEY = ".........."
 ```
 
 Get a free API key at [Google AI Studio](https://aistudio.google.com).
