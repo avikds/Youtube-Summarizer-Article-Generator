@@ -1,4 +1,4 @@
-# 🎬 YouTube Summarizer — Generative AI Content Pipeline
+# YouTube Summarizer - Generative AI Content Pipeline
 
 A Generative AI-powered Streamlit application that converts any YouTube video into a publication-ready article webpage. The pipeline extracts the video transcript, summarizes it using Google Gemini, and generates a fully styled HTML/CSS/JS article — downloadable as a ZIP in one click.
 
