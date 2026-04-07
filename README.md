@@ -4,7 +4,7 @@
 
 A full end-to-end Generative AI application built with **Streamlit**, **LangChain**, and **Google Gemini**. Paste any YouTube URL and the pipeline automatically extracts the transcript, distils the key insights into a structured summary, and generates a complete, styled article webpage — downloadable as a ZIP in one click.
 
-### Live App: https://youtube-summarizer-article-generator.streamlit.app
+**Live App: https://youtube-summarizer-article-generator.streamlit.app**
 
 ---
 
