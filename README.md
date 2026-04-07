@@ -373,7 +373,7 @@ Pipeline error: No transcript found for this video.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/Avik-Das-567/Youtube-Summarizer-Article-Generator.git
 cd youtube_summarizer
 
 # 2. Create and activate a virtual environment
@@ -403,7 +403,7 @@ The app reads the Gemini API key **exclusively** from Streamlit secrets. There i
 Edit `.streamlit/secrets.toml`:
 
 ```toml
-GEMINI_API_KEY = "AIza..."
+GEMINI_API_KEY = "............."
 ```
 
 Get a free key at [Google AI Studio](https://aistudio.google.com). The free tier is sufficient for personal and course project use.
