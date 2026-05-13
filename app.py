@@ -24,7 +24,7 @@ except (KeyError, FileNotFoundError):
     )
     st.stop()
 
-MODEL = "gemini-3.1-flash-lite-preview"
+MODEL = "gemini-3.1-flash-lite"
 
 # ──────────────────────────────────────────────
 # Custom CSS
