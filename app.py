@@ -394,7 +394,7 @@ with st.sidebar:
         <div class="sidebar-title">🤖 Active Model</div>
         <div style="font-size:0.88rem;font-weight:700;color:#7c3aed;
                     font-family:'Fira Code',monospace;">
-            gemini-3.1-flash-lite-preview
+            gemini-3.1-flash-lite
         </div>
     </div>
     """, unsafe_allow_html=True)
