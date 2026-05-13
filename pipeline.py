@@ -169,7 +169,7 @@ Output ONLY the updated summary — no preamble, no commentary.
 # 3.  LLM FACTORY
 # ──────────────────────────────────────────────
 
-def get_llm(api_key: str, model: str = "gemini-3.1-flash-lite-preview") -> ChatGoogleGenerativeAI:
+def get_llm(api_key: str, model: str = "gemini-3.1-flash-lite") -> ChatGoogleGenerativeAI:
     """Instantiate a Gemini LLM via LangChain."""
     return ChatGoogleGenerativeAI(
         model=model,
@@ -319,7 +319,7 @@ def build_zip(article: dict) -> bytes:
 def run_pipeline(
     youtube_url: str,
     api_key: str,
-    model: str = "gemini-3.1-flash-lite-preview",
+    model: str = "gemini-3.1-flash-lite",
     progress_callback=None,
 ) -> dict:
     """
